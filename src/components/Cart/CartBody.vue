@@ -15,17 +15,17 @@
             <button
               class="ui button primary"
               size="large"
-              @click="increaseProductCart(product.id)"
+              @click="decreaseProductCart(product.id)"
             >
-              +
+              -
             </button>
             <p>{{ product.quantity }}</p>
             <button
               class="ui button primary"
               size="large"
-              @click="decreaseProductCart(product.id)"
+              @click="increaseProductCart(product.id)"
             >
-              -
+              +
             </button>
           </div>
         </div>

@@ -12,6 +12,7 @@
 <script>
 import Cart from "../components/Cart/Cart";
 import Menu from "../components/Menu";
+
 export default {
   name: "BasicLayout",
 

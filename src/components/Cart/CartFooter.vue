@@ -20,6 +20,7 @@ export default {
   },
   setup(props) {
     let total = ref(0);
+
     watchEffect(() => {
       props.products;
       let totalTemp = 0;
@@ -28,6 +29,7 @@ export default {
       });
       total.value = totalTemp;
     });
+
     return {
       total,
     };
